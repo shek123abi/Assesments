@@ -1,0 +1,25 @@
+@media all and (min-width:100px) {
+    div {
+        box-sizing: border-box;
+        width: 100%;
+        border: 100px solid rgb(136, 30, 146);
+        float: left;
+        align-content: center;
+        align-items: center;
+
+    }
+
+    form {
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    body {
+        /* background-image: linear-gradient(to right red,blue,green); */
+        background-color: rgb(0, 204, 255);
+        box-sizing: border-box;
+    }
+    form{
+        border:2px solid black;
+    }
+}
