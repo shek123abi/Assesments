@@ -8,9 +8,14 @@ function Edureka() {
     var cpassword = document.getElementById("cpassword").value;
     var emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     console.log(fname, lname, password, email, phone, cpassword);
-
+    if(fname.length<=3){
+        alert("Write down 3 more fname");
+    }
+    else{
+        alert("Correct fname");
+    }
     if (email.match(emailRegex)) {
-        
+        alert("Correct email");
     }else{
         alert("You have entered an invalid email address!");
 
